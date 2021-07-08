@@ -1,0 +1,3 @@
+rootProject.name = "Prefs.io"
+include ':app'
+include ':Prefsy'
