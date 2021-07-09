@@ -21,6 +21,10 @@ public class SharedPrefs {
         if (mSharedPref == null)
             mSharedPref = context.getSharedPreferences(context.getPackageName(), Activity.MODE_PRIVATE);
     }
+    public static void clear(Context context) {
+        SharedPreferences settings = context.getSharedPreferences(context.getPackageName(), Activity.MODE_PRIVATE);
+        settings.edit().clear().commit();
+    }
 
     public static String getString(String key, String defValue) {
         return getString(key, defValue, "", "");
