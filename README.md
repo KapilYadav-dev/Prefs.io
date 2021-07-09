@@ -49,7 +49,7 @@ After initialization, you can use simple one-line methods to save and get those 
 <li><code>SharedPrefs.getString(key, defaultString, encryptionKey, encryptedText)</code>   // This will decrypt down your encrypted String  😎</li>
 </ul>
 
-# snapping the finger 🔥 ( Clearing all data )
+# Snapping the fingers 🔥 ( Clearing all data )
 <ul>
 <li><code>SharedPrefs.clear(context)</code>
 <ul>
