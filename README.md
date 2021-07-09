@@ -31,7 +31,7 @@ A small and easy Shared Prefs library with more options : )
 
 
 # Use it
-After initialization, you can use simple one-line methods to save values to the shared preferences anywhere in your app, such as:
+After initialization, you can use simple one-line methods to save and get those values from the shared preferences anywhere in your app, such as:
 
 <ul>
 <li><code>SharedPrefs.setString(key, string)</code></li>
