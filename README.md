@@ -17,7 +17,7 @@ A small and easy Shared Prefs library with more options : )
 
 # Usage
 1) Initialization ( in application class )
-2) Use it....
+2) Use it 👨🏽‍💻
 
 # Initialization
 
@@ -42,9 +42,10 @@ After initialization, you can use simple one-line methods to save values to the 
 <li><code>SharedPrefs.getboolean(key, defaultBoolean)</code></li>
 </ul>
 
-# Encrypted Strings
+# Use it with encryption
+## It's a better practice to encrypt down your sharedPrefs so that it can't be altered by Root Piratess 🏴‍☠️
 <ul>
-<li><code>SharedPrefs.setString(key, string, encryptionKey)</code></li>
-<li><code>SharedPrefs.getString(key, defaultString, encryptionKey, encryptedText)</code></li>
+<li><code>SharedPrefs.setString(key, string, encryptionKey)</code>   // This will encrypt your String 🤐</li>  
+<li><code>SharedPrefs.getString(key, defaultString, encryptionKey, encryptedText)</code>   // This will decrypt down your encrypted String  😎</li>
 </ul>
 
